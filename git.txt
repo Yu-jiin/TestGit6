@@ -22,3 +22,7 @@ GIT - SVN
 * git status : 상태 확인
 
 * git add : 파일의 상태를 tracked 상태로 변경
+
+>> 깃에 사용자 정보를 등록 
+  git config --global user.email "jiin4083@naver.com"
+  git config --global user.name "유지인"
