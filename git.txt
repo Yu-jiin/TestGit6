@@ -26,3 +26,22 @@ GIT - SVN
 >> 깃에 사용자 정보를 등록 
   git config --global user.email "jiin4083@naver.com"
   git config --global user.name "유지인"
+
+>> 깃을 사용해서 정보를 저장 : commit 
+  git commit -m "저장하는 메세지"
+
+>> 깃의 commit 기록 확인 
+  git log 
+  git log --oneline --all --graph
+
+>> 깃 상태 변경(세이브 포인트 변경)
+  git checkout 커밋아이디 
+  git checkout master 
+
+Q. 테스트 작업 중 (커밋 메세지 생성)
+ 
+>> 원격 저장소를 추가
+ * git remote add orgin 깃허브주소
+
+>> 원격 저장소로 정보를 전달
+ * git push origin master 
